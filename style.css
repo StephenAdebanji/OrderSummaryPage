@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(../Order-summary/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     color: black;
     font-family: 'Red Hat Display';
     display: flex;
