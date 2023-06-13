@@ -1,0 +1,99 @@
+
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Order-summary/images/pattern-background-desktop.svg);
+    color: black;
+    font-family: 'Red Hat Display';
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 25rem;
+    height: 80vh;
+    background-color: white;
+    border-radius: 15px;
+    margin: 60px auto;    
+}
+
+.img{
+    margin-right: 20rem;
+    width: inherit;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+h2, h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.Section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Plans{
+    margin-left: -150px;
+    padding: 20px;
+
+}
+
+a.change{
+    position: relative;
+    left:7rem;
+    color: blue;
+}
+
+a.change:hover{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 20px 0;
+}
+
+.majbtn {
+    display: block;
+    margin: auto;
+    background-color:blue;
+    color: white;
+    width: 20rem;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;   
+}
+
+.majbtn:hover {
+    transform: scale(0.98);
+    background-color: rgb(134, 134, 245);
+}
+
+.majbtn h3{
+    text-align: center;
+    justify-content: center;
+}
+
+a.Cancel {
+    text-decoration: none;
+    margin-top: 60px;
+    
+}
+
+a.cancel:hover{
+    font-weight: 900px;
+
+}
